@@ -9,5 +9,7 @@
 `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 ## Install Imagemagick
 `brew install imagemagick`
+## Install ffmpeg
+`brew install ffmpeg --with-fdk-aac --with-ffplay --with-freetype --with-libass --with-libquvi --with-libvorbis --with-libvpx --with-opus --with-x265`
 ## Run bundler
 `bundle install`
